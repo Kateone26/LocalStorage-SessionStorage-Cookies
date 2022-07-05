@@ -20,6 +20,15 @@ const saveToLocalStorage = ()=>{
 button.addEventListener('click', saveToLocalStorage)
 
 
+// 
+// localStorage.clear()
+
+// localStorage.removeItem('textinput')
+
+
+
+// 
+
 
 // session storage
 
@@ -38,24 +47,29 @@ storageInput2.addEventListener('input', letter =>{
 })
 
 const saveToLocalStorage2 = ()=>{
-    sessionStorage.setItem('textinput', text.textContent)
+    sessionStorage.setItem('textinput', text2.textContent)
 }
 button2.addEventListener('click', saveToLocalStorage2)
 
 
+// 
+// sessionStorage.removeItem('textinput')
+
+// sessionStorage.clear()
+
+
+// 
 
 
 // cookies
 
 
-document.cookie = 'name=kyle'
+// document.cookie = 'name=kyle'
 
-document.cookie = 'name=kyle; expires=' + new Date(7777,7, 2).toUTCString()
+// document.cookie = 'name=kyle; expires=' + new Date(7777,7, 2).toUTCString()
 
-document.cookie = 'lastname=smith; expires=' + new Date(7777,7, 2).toUTCString()
+// document.cookie = 'lastname=smith; expires=' + new Date(7777,7, 2).toUTCString()
 
-console.log(document.cookie);
-
-
+// console.log(document.cookie);
 
 
